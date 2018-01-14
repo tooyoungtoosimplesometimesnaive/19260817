@@ -1,6 +1,6 @@
 # Generate the Magic Number for the Reference of True Fans!
 
-References are in `magic_number.txt`
+References are in [magic_number.txt](https://raw.githubusercontent.com/tooyoungtoosimplesometimesnaive/19260817/master/magic_number.txt), this file is a little bit large so this link points to the raw file.
 
 ## Frequently Asked Questions:
 
