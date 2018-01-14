@@ -16,16 +16,18 @@ using std::istream_iterator;
 
 using std::ofstream;
 
+string file_name {"magic_number.txt"};
+
 void write_title() {
 	ofstream ofs;
-	ofs.open("README.md", ofstream::app);
+	ofs.open(file_name, ofstream::app);
 	ofs << "# The Generated Magic Number for the Reference of True Fans!" << endl;
 	ofs.close();
 }
 
 void write_to_file(string s, int result) {
 	ofstream ofs;
-	ofs.open("README.md", ofstream::app);
+	ofs.open(file_name, ofstream::app);
 	ofs << "#### " ;
 	for (auto c : s) {
 		if (c == '+' || c == '-' || c == '*' || c == '/')
