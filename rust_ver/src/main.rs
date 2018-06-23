@@ -1,5 +1,5 @@
 
-fn dfs(a: &[u8]) -> u8 {
+fn dfs(a: &[i32]) -> i32 {
     println!("hey {}", &a[0]);
     if a.len() <= 1 {
         a[0]
@@ -10,8 +10,8 @@ fn dfs(a: &[u8]) -> u8 {
 
 fn main() {
 
-    let number = "1234".as_bytes();
-    println!("the length is {}", number.len());
-    println!("the number is {}", dfs(number));
+    let number = [1,2,3,4];
+
+    println!("the number is {}", dfs(&number[..]));
 
 }
