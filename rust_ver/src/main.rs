@@ -1,6 +1,5 @@
 
 fn dfs(a: &[i32]) -> i32 {
-    println!("hey {}", &a[0]);
     if a.len() <= 1 {
         a[0]
     } else {
